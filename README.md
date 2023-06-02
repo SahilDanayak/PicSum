@@ -17,8 +17,8 @@ The project takes in an image as input. This image could be a picture of notes o
 
 * Step-4 Generate Fill-in-the-blanks: This involves generating fill in the blanks. Question-answer pairs are generated using the AAQG method with T5 (Answer Aware question generation), are converted into declarative sentences using the BART model trained on the QA2D dataset to generate fill-in-the-blank questions.
 
-![Demo Picture 1](https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture1.png?raw=true)
-![Demo Picture 2](https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture2.png?raw=true)
+<img src="https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture1.png?raw=true" width="600" height="300" alt="Demo Picture 1">
+<img src="https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture2.png?raw=true" width="600" height="300" alt="Demo Picture 2">
 
 ## Result
 
