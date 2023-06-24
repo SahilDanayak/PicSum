@@ -16,8 +16,8 @@ The project takes in an image as input. This image could be a picture of notes o
 
 * Step-4 Question and Answers: TThis involves generating Answers of user input questions. Question-answer pairs are generated using by fine tuning DistilBERT and Roberta model on the squad dataset using 5000 question answer tuples. 
 
-<img src="https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture1.png?raw=true" width="600" height="300" alt="Demo Picture 1">
-<img src="https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture2.png?raw=true" width="600" height="300" alt="Demo Picture 2">
+<img src="https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture1.png?raw=true" width="600" alt="Demo Picture 1">
+<img src="https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture2.png?raw=true" width="600" alt="Demo Picture 2">
 
 ## Result
 
