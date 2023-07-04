@@ -1,5 +1,7 @@
 # PicSum
 
+Try out the deployed model here : https://huggingface.co/spaces/SMD00/Image_Summarizer
+
 ## Introduction
 
 Picsum generates abstractive and extractive summaries to enable them to digest voluminous information in shorter periods. It gives out the important sentences and further enhances their comprehension by answering their questions, enabling them to assess their understanding of the condensed information.
@@ -15,6 +17,8 @@ The project takes in an image as input. This image could be a picture of notes o
 * Step-3 Getting Important Sentences: This step involves highlighting important sentences from the text. This is done by creating word embeddings in the form of vectors and then calculating the similarity between the sentences using cosine distance between a pair of vectors. Then we create a graph from the similarity matrix generated. This graph is page-ranked to find out the important sentences in the text.
 
 * Step-4 Question and Answers: TThis involves generating Answers of user input questions. Question-answer pairs are generated using by fine tuning DistilBERT and Roberta model on the squad dataset using 5000 question answer tuples. 
+
+Some of the results: 
 
 <img src="https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture1.png?raw=true" width="600" alt="Demo Picture 1">
 <img src="https://github.com/SahilDanayak/PicSum/blob/main/PicSum-Demo-Picture2.png?raw=true" width="600" alt="Demo Picture 2">
